@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg3"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_person_24"
+            android:layout_gravity="center"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apoorav Kumar"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21BCS2182"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#333333"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Father's Name"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:textColor="#333333"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rakesh Prasad"
+                    android:textSize="25sp"
+                    android:layout_weight="1"
+                    android:textColor="#333333"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mother's Name"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_weight="3"
+                    android:textColor="#333333"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rubi Rani"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Birth"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="29 Oct, 2003"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Group"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="AB+"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Current Sem"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="4th"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="69, Admin house"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contact"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="+916239139563"
+                    android:textSize="25sp"
+                    android:textColor="#333333"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

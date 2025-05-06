@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="837dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".AdminActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="25dp"
+            android:text="Your courses"
+            android:textColor="#333333"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Computer Networks"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Software Engineering"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Computer Organization and Architecture"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Probability and Statistics"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="General Profiencency"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Data Structures"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Ethics and Gender Equality"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            app:backgroundTint="#803A98B9" />
+
+    </LinearLayout>
+
+</LinearLayout>

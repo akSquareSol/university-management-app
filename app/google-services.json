@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86601263224",
+    "project_id": "cuhub-logins",
+    "storage_bucket": "cuhub-logins.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86601263224:android:6b741daa0e15c1aa06a58d",
+        "android_client_info": {
+          "package_name": "com.apoorav.cuhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86601263224-065d4jkmrbki248m3u5vcf1pu3flugmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO7CWWEkwxF7jculhg9Oo3aU45lh4SQXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86601263224-065d4jkmrbki248m3u5vcf1pu3flugmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

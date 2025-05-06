@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_uid"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Your UID"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="#A4333333"
+            android:layout_margin="15dp"
+            android:paddingStart="10dp"
+            android:backgroundTint="#803A98B9"
+            android:background="@drawable/bg2"
+            />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="15dp"
+            android:textColorHint="#A4333333"
+            android:hint="Your Password"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:paddingStart="10dp"
+            android:backgroundTint="#803A98B9"
+            android:inputType = "textPassword"
+            android:background="@drawable/bg2"
+            />
+
+
+        <android.widget.Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            app:backgroundTint="#803A98B9"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <android.widget.TextView
+            android:id="@+id/fg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fgpass"
+            android:layout_margin="25dp"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="837dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".AdminActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:text="Welcome, Apoorav"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#4D3A98B9"
+            android:layout_marginEnd="50dp"
+            android:background="#4D3A98B9"
+            android:layout_marginBottom="25dp"
+            app:cardCornerRadius="15dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="NOTICE"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingStart="5dp"
+                    android:text="Reminder"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/bullet"
+                    android:drawablePadding="10dp"
+                    android:paddingStart="5dp"
+                    android:textColor="#333333"
+                    android:text="Classes after 18th May will be suspended."
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/bullet"
+                    android:drawablePadding="10dp"
+                    android:paddingStart="5dp"
+                    android:textColor="#333333"
+                    android:text="Lab Practicals Commencing from 18th May."
+
+                    />
+
+            </LinearLayout>
+
+        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+        <android.widget.Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Attendance"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="28sp" />
+
+        <android.widget.Button
+            android:id="@+id/btn_timetable"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Time Table"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="28sp"
+            app:backgroundTint="#803A98B9" />
+
+        <android.widget.Button
+            android:id="@+id/btn_examination"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Examination"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="28sp"
+            app:backgroundTint="#803A98B9" />
+
+        <android.widget.Button
+            android:id="@+id/btn_vcourse"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="View Course"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="28sp"
+            app:backgroundTint="#803A98B9" />
+
+        <android.widget.Button
+            android:id="@+id/btn_fees"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="Fees"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="28sp"
+            app:backgroundTint="#803A98B9" />
+
+    </LinearLayout>
+
+</FrameLayout>

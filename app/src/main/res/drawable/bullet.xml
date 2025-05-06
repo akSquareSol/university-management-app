@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <stroke
+        android:width="0.1dp"
+        android:color="@color/black" />
+
+    <!--set color of the bullet-->
+    <solid
+        android:color="#666666"/> //set color of bullet
+
+    <!--set size of the bullet-->
+    <size
+        android:width="8dp"
+        android:height="8dp"/>
+</shape>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="962dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".AdminActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:text="Result(3rd Sem)"
+            android:textColor="#333333"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Computer Networks"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="A"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Software Engineering"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="B+"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Computer Organization and Architecture"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="B"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Probability and Statistics"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="A+"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="General Profiencency"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Q"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Data Structures"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="B+"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="Ethics and Gender Equality"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="A"
+                android:textAllCaps="false"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:backgroundTint="#803A98B9" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:text="Total CGPA - 8.1"
+            android:textColor="#333333"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
